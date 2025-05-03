@@ -1,0 +1,97 @@
+
+body
+{
+    margin: 0%;
+    background-color: #091418;
+}
+
+a
+{
+    text-decoration: none !important;
+    font-size: 22px !important;
+    height: auto !important;
+    color: #ffff !important;
+    transition: all 0.3s !important;
+    padding: 0% !important;
+    
+}
+
+.myHeader
+{
+    display: flex !important;
+    width: 100% !important;
+    align-items: center !important;    
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 5px !important;
+    padding-top: 5px !important;
+    background-color: #091418 !important;
+    height: 70px !important;
+    position: fixed;
+    z-index: 9999;
+}
+
+.botoes
+{
+    margin-left: auto;
+    height: auto;
+}
+
+.links
+{
+    
+    margin-left: auto;
+    width: 40%;
+    height: 40%;
+}
+
+.botao_links 
+{
+
+    background-color: #091418;
+    border: none;
+    border-radius: 10px;
+    padding: 0%;
+    display: flex !important;
+    
+    transition: all 0.3s;
+}
+
+.botao_links:hover a
+{
+    color: #7dd8b3 !important;
+}
+
+.myContainer
+{
+    background-color: #080f11 !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.myCard
+{
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.login-button
+{
+    background-color: #091418 !important;
+    font-size: 18px;
+    width: 100px;
+    color: #ffff;
+    border: none;
+    transition: all 0.3s;
+}
+
+.login-button:hover
+{
+    color: #7dd8b3;
+}
