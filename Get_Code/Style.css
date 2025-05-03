@@ -79,6 +79,13 @@ a
 {
     display: flex !important;
     flex-direction: row !important;
+    width: 800px !important;
+    height: 500px !important;
+    padding: 30px;
+    border-radius: 30px !important;
+    background-color: #091418 !important;
+    color: #ffff !important;
+    transition: all 0.3s;
 }
 
 .login-button
@@ -86,6 +93,7 @@ a
     background-color: #091418 !important;
     font-size: 18px;
     width: 100px;
+    height: 100% !important;
     color: #ffff;
     border: none;
     transition: all 0.3s;
@@ -94,4 +102,32 @@ a
 .login-button:hover
 {
     color: #7dd8b3;
+}
+
+.logo
+{
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.logo:hover
+{
+    rotate: -15deg;
+}
+
+.card-image
+{
+    width: 70% !important;
+    height: 100% !important;
+    border-radius: 30px;
+}
+
+.myCard-body
+{
+    width: 40% !important;
+}
+
+.myCard:hover
+{
+    box-shadow: 0 0 10px #7dd8b3;
 }
