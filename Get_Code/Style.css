@@ -13,6 +13,14 @@ a
     color: #ffff !important;
     transition: all 0.3s !important;
     padding: 0% !important;
+}
+
+.footerText
+{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    color: #ffff;
+    font-size: 15px !important;
     
 }
 
@@ -29,6 +37,7 @@ a
     height: 70px !important;
     position: fixed;
     z-index: 9999;
+    border-bottom: 1px solid #7dd8b3;
 }
 
 .botoes
@@ -62,17 +71,17 @@ a
     color: #7dd8b3 !important;
 }
 
-.myContainer
+.welcomes
 {
     background-color: #080f11 !important;
-    width: 100% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffff;
 }
 
 .myCard
@@ -86,6 +95,7 @@ a
     background-color: #091418 !important;
     color: #ffff !important;
     transition: all 0.3s;
+    gap: 30px;
 }
 
 .login-button
@@ -129,5 +139,34 @@ a
 
 .myCard:hover
 {
-    box-shadow: 0 0 10px #7dd8b3;
+    border: 1px solid #7dd8b3;
+    
 }
+
+.myFooter
+{
+    background-color: #091418;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.myContainer
+{
+    background-color: #080f11 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100% !important;
+    margin: 0% !important;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+  

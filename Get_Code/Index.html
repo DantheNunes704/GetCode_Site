@@ -31,67 +31,73 @@
             </button>
         </div>
         <!--links end-->
-        <!--buttons end-->
+        <!--buttons start-->
         <div class="botoes">
-            <button class="login-button lead">Entrar</button>
+            <button class="login-button lead">entrar</button>
         </div>
         <!--buttons end-->
     </header>
     <!--header end-->
 
-    <div class="myContainer">
-        <div class="card myCard d-flex justify-content-center align-items-center" >
+    <div class="container-fluid w-100 myContainer">
+
+        <div class="container-fluid welcomes">
+            <p class=" fs-2">Welcome to our live code editor!</p>
+            <p class="lead fs-3">Whether you're looking to discover or share, Get<span style="color: #7dd8b3;">Code</span> is the perfect place!</p>
+        </div>
+
+        <!--Card-1-->
+        <div class="card myCard" >
             <img src="Assets/Images/gif-code.gif" class="card-image" alt="...">
             <div class="card-body myCard-body">
-              <p class="card-text lead text-align-center">You can post your code, edit it in real-time, and share it with others! Whether you're debugging, collaborating, or just showing off something cool, this is the perfect place to showcase your work.</p>
+              <p class="card-text lead d-flex text-align-center">You can post your code, edit it in real-time, and share it with others! Whether you're debugging, collaborating, or just showing off something cool, this is the perfect place to showcase your work.</p>
             </div>
           </div>
+          <!--Card-1-->
+
+        <!--Card-2-->
+        <div class="card myCard" >
+          <p class="card-text my-auto lead">Invite your friends and colleagues! Here, you can follow other developers, explore what they're working on, and offer help when needed.</p>
+          <img src="Assets/Images/gif-social.gif" class="card-image" alt="...">
+        </div>
+        <!--Card-2-->
+
+        <!--Card-3-->
         <div class="card myCard" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body lead text-align-center">
-              <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+          <img src="Assets/Images/gif-account.gif" class="card-image" alt="...">
+            <div class="card-body d-flex flex-column ">
+              <h5 class="card-title">Code. Post. Repeate.</h5>
+              <p class="card-text my-auto lead">Don’t have an account yet? Create one now to unlock full access to all features, personalize your experience, save your activity, and stay up to date with the latest updates and offers. </p>
+              <button class="botao_links mx-auto mt-auto"><a href="#" class="botoes">login</a></button>
           </div>
-        <div class="card myCard" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        <div class="card myCard" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        <div class="card myCard" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        <div class="card myCard" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        <div class="card myCard" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-        <div class="card myCard" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
+        </div>
+        <!--Card-3-->
+
+
+
     </div>
 
-    <footer>
-        
+    <footer class="row myFooter">
+        <div class="col-lg-3 container myFooter d-flex justify-content-center flex-column">
+            <p class="d-flex align-items-end" style="color: #ffff; font-size: 23px;"><img class="logo" src="Assets/Images/logo.png" width="35px" height="auto">GetCode</p>
+            <p class="lead footerText">Made with all love in the world by Danthe Nunes</p>
+            <p class="lead footerText">Special thaks to COTIL and all my professors</p>
+            <p class="lead footerText">Currently V1.0.0</p>
+        </div>
+
+        <div class="col-lg-3 container myFooter d-flex justify-content-center flex-column">
+            <p class="lead footerText">Some code-related sites:</p>
+            <a class="lead footerText" href="https://stackoverflow.com" target="_blank">stackoverflow</a>
+            <a class="lead footerText" href="https://bootstrap.com" target="_blank">bootstrap</a>
+            <a class="lead footerText" href="https://stackoverflow.com" target="_blank">stackoverflow</a>
+
+        </div>
+        <div class="col-lg-3 container myFooter">
+            Get code bla bla bla
+        </div>
+        <div class="col-lg-3 container myFooter">
+            Get code bla bla bla
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
