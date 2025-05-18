@@ -33,7 +33,7 @@ a
     padding-right: 50px !important;
     padding-bottom: 5px !important;
     padding-top: 5px !important;
-    background-color: #091418 !important;
+    background-color: #282829 !important;
     height: 70px !important;
     position: fixed;
     z-index: 9999;
@@ -57,7 +57,7 @@ a
 .botao_links 
 {
 
-    background-color: #091418;
+    background-color: #282829;
     border: none;
     border-radius: 10px;
     padding: 0%;
@@ -96,11 +96,12 @@ a
     color: #ffff !important;
     transition: all 0.3s;
     gap: 30px;
+    border: 2px solid gray;
 }
 
 .login-button
 {
-    background-color: #091418 !important;
+    background-color: #282829 !important;
     font-size: 18px;
     width: 100px;
     height: 100% !important;
@@ -140,12 +141,11 @@ a
 .myCard:hover
 {
     border: 1px solid #7dd8b3;
-    
 }
 
 .myFooter
 {
-    background-color: #091418;
+    background-color: #282829;
     padding: 50px;
     padding-left: 100px;
     padding-right: 100px;
